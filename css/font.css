@@ -1,0 +1,16 @@
+/* declaring font face */
+
+@font-face {
+    font-family: "arpitr";
+    src: url(../fonts/Nanum_Gothic/NanumGothic-Regular.ttf);
+}
+
+@font-face {
+    font-family: "arpit";
+    src: url(../fonts/Nanum_Gothic/NanumGothic-Bold.ttf);
+}
+
+@font-face {
+    font-family: "arpitb";
+    src: url(../fonts/Nanum_Gothic/NanumGothic-ExtraBold.ttf);
+}

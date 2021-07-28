@@ -1,0 +1,73 @@
+
+
+/* GLOBAL CLASSES */
+
+.title-text{
+    font:normal 40px/65px "arpit";
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.font-arpit{
+    font-family: "arpit";
+}
+/* BUTTONS */
+
+.button{
+    padding: 1rem 2.3rem;
+    font: normal 500 18px/20px "arpit";
+    position: relative;
+    border: 0px solid transparent;
+    border-radius: 4px;
+}
+
+.button.button-primary{
+    background: var(--color-grad2);
+    background-clip: padding-box;
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+    transition: 0.15s ease-in;
+}
+
+
+.button.button-secondary{
+    background: whitesmoke;
+    background-clip: padding-box;
+    border-radius: 4px;
+    transition: 0.15s ease-out;
+}
+
+.button.button-primary:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: var(--color-txt);
+}
+
+.button.button-secondary:hover{
+    color: whitesmoke;
+    background: var(--color-grad2);
+    background-clip: padding-box;
+
+}
+
+p.para{
+color: var(--color-txt);
+font: normal 500 15px/25px "arpitr";
+}
+
+button:focus,
+button:active,
+button:hover
+.btn.active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+input:focus,
+input:active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}

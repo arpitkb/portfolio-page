@@ -1,0 +1,415 @@
+
+/* importing fonts from font.css */
+@import url(./font.css);
+@import url(./partials/var.css);
+@import url(./partials/global.css);
+
+/* navigation starts */
+
+body{
+    background: url(../images/bg-title.jpg) no-repeat;
+    background-position: 19% 6%;
+}
+
+.header_area .main-menu .navbar-brand{
+    padding: 0 3rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 2rem 13rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font-family: "arpit";
+    text-transform: uppercase;
+    padding: 1rem;
+    color:var(--color-txt);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--color-grad1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--color-grad1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+/* navigation ends */
+
+
+/* banner area begins */
+
+
+
+
+.site-main .site-banner h3{
+padding-top: 23%;
+font-family: "arpitb";
+}
+
+.site-main .site-banner h1{
+    font-size: 3.2rem;
+}
+
+.site-main .site-banner h4{
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.site-main .site-banner .banner-image img{
+    padding-top: 1rem;
+    width: 90%;
+}
+
+
+/* banner area ends */
+
+/* about area starts */
+
+.site-main .about-area{
+    padding: 8rem 4rem;
+}
+
+.site-main .about-area .about-title h2>span{
+    display: block;
+    font: normal bold 30px/40px "arpitb";
+    letter-spacing: 12px;
+}
+
+.site-main .about-area .about-title .paragraph{
+    padding: 2rem 0rem;
+}
+
+/* about area ends */
+
+/* brand area starts */
+
+.site-main .brand-area{
+    padding: 1.7rem 11rem;
+    margin-bottom: 6rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+
+
+.site-main .brand-area .first-row .col-lg-4>.single-brand{
+    border: 1px solid rgba(100, 100, 100, 0.26);
+    background-color: #f2f4ff83;
+    text-align: center;
+    padding: 0.9rem 0rem;
+    margin: 1.2rem 0.1rem;
+    width: 220px;
+    height: 95px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.site-main .brand-area .first-row .col-lg-4>.single-brand>img{
+    width:40%
+}
+
+.site-main .brand-area .first-row .col-lg-4>.single-brand:hover{
+    box-shadow: var(--box-shadow2);
+    transform: scale(1.1);
+}
+
+.site-main .brand-area .first-row .col-lg-4>.single-brand:hover>img{
+    filter: brightness(.5);
+}
+
+.site-main .brand-area .experience-area{
+    padding-top: 1rem;
+    padding-left: 5rem;
+}
+
+.site-main .brand-area .experience-area span{
+    display: block;
+}
+
+.site-main .brand-area .experience-area .years-area{
+    padding-top: 1rem;
+    margin-top: 2rem;
+    width:13rem;
+    height: 11rem;
+    padding-left: 5rem;
+    position: relative;
+    border: 4px solid rgb(217, 248, 250);
+    border-style: dashed;
+}
+
+.site-main .brand-area .experience-area .bg-panel{
+    position:absolute;
+    left: -100px; top:8%;
+    background: #e029290a;
+    width: 355px;
+    height: 335px;
+    margin-left: 290px;
+    z-index: -1;
+
+}
+
+.site-main .brand-area .experience-area .years-area .years{
+    font: normal bold 84px/40px "arpitb";
+    color: var(--color-3);
+    z-index: 2;
+    margin-left: 0rem;
+}
+
+.site-main .brand-area .experience-area .years-area h2>span{
+    font: normal 100 30px/40px "arpitb";
+}
+
+.site-main .brand-area .experience-area .call-area{
+    padding-left: 9rem;
+    margin-top: 3rem;
+}
+
+.site-main .brand-area .experience-area .call-area .call-now a{
+    font: normal 100 17px "arpit";
+    color: var(--color-1);
+}
+.site-main .brand-area .experience-area .call-area .call-now a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.site-main .brand-area .experience-area .call-area .call-now span{
+    font: normal 100 15px "arpit";
+    color: rgb(97, 8, 8);
+}
+
+
+/* brand area ends */
+
+
+
+/* service area starts */
+
+
+.site-main .service-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .service-area .service-title{
+    padding: 0 15rem;
+}
+
+.site-main .service-area .service-title h1{
+    font: normal 100 35px/45px "arpit";
+}
+
+.site-main .service-area .services{
+    background-color: #edf2fb4d;
+    padding: 2rem 0;
+    width: 15rem;
+    height: 23.5rem;
+    margin: 5.5rem 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.site-main .service-area .services:hover{
+    box-shadow: var(--box-shadow2);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+
+/* service area ends */
+
+
+
+/* project area starts */
+
+
+.site-main .project-area{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.site-main .project-area .project-title h1:nth-child(1){
+       font: normal 100 38px/30px "arpitb";
+       color: var(--color-3);
+       border-bottom: 1px solid rgba(95, 95, 124, 0.116);
+}
+
+.site-main .project-area .project-title h1:nth-child(2){
+    font: normal 100 30px/30px "arpit";
+    color: var(--color-3);
+    
+   
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 100 16px/100px "arpit";
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button+button{
+    padding-left: 2.5rem;
+}
+
+.site-main .project-area .our-proj> .title h4{
+font: normal 100 20px/5px "arpit";
+}
+
+.site-main .project-area .our-proj img{
+    width: 100%;
+    border-radius: 10%;
+    transition: all 0.1s ease-in;
+}
+.site-main .project-area .our-proj img:hover{
+    filter: brightness(1.15) drop-shadow(1px 8px 30px rgba(26, 40, 70, 0.205));
+}
+
+.site-main .project-area .our-proj{
+    border-bottom: 1px solid var(--color-2);
+    border-radius: 2%;
+}
+
+
+
+/* project area ends */
+
+
+
+
+
+/* client section starts */
+.site-main .about-area .about-title-client p{
+    padding: 1rem 12rem;
+}
+
+.site-main .about-area .client{
+    background: #e029290a;
+    box-shadow: var(--box-shadow2);
+    margin: 2.55rem 0rem;
+}
+
+.site-main .about-area .client .client-img{
+    margin-top: 0rem;
+    padding: 2rem;
+}
+
+.site-main .about-area .client .about-client{
+    padding: 2rem;
+}
+
+.site-main .about-area .client .about-client h4{
+    font: normal 100 21px/25px "arpitb";
+}
+
+.site-main .about-area .client .about-client p{
+    font-size: 15px;
+}
+
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background-color: var(--color-4);
+    width: 15px;
+}
+
+
+
+/* client section ends */
+
+
+/* subscribe section */
+
+.site-main .subscribe-us-area{
+margin-top: 0rem;
+}
+
+.site-main .subscribe-us-area .subscribe{
+    background: var(--color-grad1);
+    width: 70%;
+    padding: 7rem 0rem;
+    margin: 2rem auto;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4{
+    font: normal 100 26px/30px "arpit";
+    color: whitesmoke;
+}
+
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p{
+    color: whitesmoke;
+    padding: 1.5rem 4rem;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input{
+    width: 350px;
+    padding: 1.5rem 1rem;
+    border: 2px solid rgba(245, 245, 245, 0.384);
+    background: transparent;
+    color: whitesmoke;
+    font: normal 100 17px/20px "arpitr";
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
+    color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe form .btn-submit button{
+    background: var(--color-2);
+    color: black;
+    font: normal 100 17px/20px "arpit";
+    padding: 0.75rem 1.3rem;
+}
+.site-main .subscribe-us-area .subscribe form .btn-submit button:hover{
+    background-color: aliceblue;
+}
+
+
+
+
+/* subscribe section ends */
+
+
+.ruler{
+    width: 72.1%;
+    color: black;
+    transform: translateY(6rem);
+}
+
+
+/* footer area */
+
+footer.footer-area{
+    padding: 4rem 0rem;
+}
+
+footer.footer-area .social h5{
+    font: normal 800 17px/25px "arpit";
+    margin-bottom: 1rem;
+}
+
+footer.footer-area .social a{
+    font-size: 22px;
+    padding: 2rem 2rem;
+    color: var(--color-4);
+}
+
+footer.footer-area .social a:hover{
+    color: var(--color-3);
+}
+
+/* footer area ends */
